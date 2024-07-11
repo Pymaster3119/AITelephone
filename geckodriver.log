@@ -795,3 +795,55 @@ console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkErr
 1720648545809	Marionette	INFO	Stopped listening on port 62671
 1720648551343	Marionette	INFO	Stopped listening on port 62735
 1720648554118	Marionette	INFO	Stopped listening on port 62802
+1720665739302	geckodriver	INFO	Listening on 127.0.0.1:56009
+1720665739622	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/vg/_kg2628d3zj1nsyrlv860nbm0000gn/T/rust_mozprofilenAxTAn"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1720665741785	Marionette	INFO	Marionette enabled
+1720665742239	Marionette	INFO	Listening on port 56017
+1720665742331	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+1720665774149	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+JavaScript warning: https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fgemini.google.com%2Fsignin%3Fcontinue%3Dhttps%3A%2F%2Fgemini.google.com%2F&followup=https%3A%2F%2Fgemini.google.com%2Fsignin%3Fcontinue%3Dhttps%3A%2F%2Fgemini.google.com%2F&ifkv=AdF4I75HK4KbQb57ZlPsz3HCk7-eC4v56gqCUlbf5HxuPnUfxckX2oUp65LXL2zfJFm-d81bt7dEeA&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S251938688%3A1720664870837265&ddm=0 line 85 > injectedScript line 2 > eval line 6394 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fgemini.google.com%2Fsignin%3Fcontinue%3Dhttps%3A%2F%2Fgemini.google.com%2F&followup=https%3A%2F%2Fgemini.google.com%2Fsignin%3Fcontinue%3Dhttps%3A%2F%2Fgemini.google.com%2F&ifkv=AdF4I75HK4KbQb57ZlPsz3HCk7-eC4v56gqCUlbf5HxuPnUfxckX2oUp65LXL2zfJFm-d81bt7dEeA&passive=1209600&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S251938688%3A1720664870837265&ddm=0 line 85 > injectedScript line 2 > eval line 6394 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:321:10
+
+console.warn: "Got a mutation for an unexpected actor: server0.conn0.process3//domnode376, please file a bug on bugzilla.mozilla.org!"
+console.trace: 
+resource://devtools/client/fronts/walker.js 225 getMutations
+console.warn: "Got a mutation for an unexpected actor: server0.conn0.process3//domnode374, please file a bug on bugzilla.mozilla.org!"
+console.trace: 
+resource://devtools/client/fronts/walker.js 225 getMutations
+console.warn: "Got a mutation for an unexpected actor: server0.conn0.process3//domnode376, please file a bug on bugzilla.mozilla.org!"
+console.trace: 
+resource://devtools/client/fronts/walker.js 225 getMutations
+console.warn: "Got a mutation for an unexpected actor: server0.conn0.process3//domnode376, please file a bug on bugzilla.mozilla.org!"
+console.trace: 
+resource://devtools/client/fronts/walker.js 225 getMutations
+console.error: "Unable to find target with innerWindowId:6442450945"
+console.error: "Unable to find target with innerWindowId:6442450945"
+console.error: "Unable to find target with innerWindowId:6442450945"
+console.error: "Unable to find target with innerWindowId:6442450945"
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+JavaScript warning: https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fgemini.google.com%2Fsignin%3Fcontinue%3Dhttps%3A%2F%2Fgemini.google.com%2F&ddm=0&flowEntry=ServiceLogin&flowName=GlifWebSignIn&followup=https%3A%2F%2Fgemini.google.com%2Fsignin%3Fcontinue%3Dhttps%3A%2F%2Fgemini.google.com%2F&ifkv=AdF4I75p7YZHmuss2TeWknORGAh2YjiHs5rn1K0BR76uHKvUjK2r0qKtG2AKFzKlvhvTQxx2KBDw1w&dsh=S-150788560%3A1720665868655755 line 78 > injectedScript line 2 > eval line 3794 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://accounts.google.com."
+JavaScript error: resource://gre/modules/PrivateBrowsingUtils.sys.mjs, line 19: TypeError: aWindow is null
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+1720666347591	Marionette	INFO	Stopped listening on port 56017
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
